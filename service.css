@@ -8,7 +8,7 @@
   --text: #f0f6ff;
   --muted: #64748b;
   --border: rgba(255,255,255,0.08);
-
+  --nav-bg: rgba(3,6,15,0.75);
   --space-xs: 0.5rem;
   --space-sm: 1rem;
   --space-md: 1.5rem;
@@ -52,3 +52,37 @@ h1 { font-size: clamp(2.5rem,6vw, 5rem);}
 h2 { font-size: clamp(1.8rem, 4vw, 2.8rem);}
 h3 { font-size: 1.2rem;}
 
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--nav-bg);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem var(--space-md);
+}
+
+.nav-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    color: var(--accent-soft);
+}
+
+.nav-links {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-lg);
+}
+
+.btn-book {
+  background-color: var(--nav-bg);
+  color: var(--text);
+  border: 2px solid;
+  border-color: var(--accent-soft);
+  border-radius: 10px;
+  padding: 10px;
+}
