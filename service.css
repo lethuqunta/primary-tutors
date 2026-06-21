@@ -16,6 +16,8 @@
   --space-xl: 5rem;
   --text-subtle: #c8deff;
   --transition: 0.25s ease;
+  --surface-dim: #060a16;
+  --surface-3: #0d1830;
 
 }
 
@@ -144,3 +146,33 @@ h1 {
   font-size: 28px;
   line-height: 1.2;
 }
+
+.sec-about {
+  min-height: 100vh;
+  background: var(--surface-3);
+  
+}
+
+.sec-about h2 {
+  text-align: center;
+  padding-top: var(--space-lg);
+}
+
+.sec-about h3 {
+  text-align: center;
+  padding-top: var(--space-lg);
+}
+
+.sec-info {
+  text-align: center;
+  padding-top: var(--space-md);
+  padding-bottom: var(--space-md);
+}
+
+.mission-label {
+  text-align: center;
+  padding-top: var(--space-md);
+  padding-bottom: var(--space-md);
+}
+
+
