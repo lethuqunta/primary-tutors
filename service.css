@@ -200,6 +200,7 @@ h1 {
   gap:  var(--space-lg);
   max-width: 1000px;
   margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 .subject-card {
@@ -258,6 +259,17 @@ h1 {
   font-size: 1.1rem;
   color: var(--text-subtle);
   font-weight: 700;
+}
+
+.footer {
+  background: var(--surface-dim);
+  border-top: 0.5px solid var(--border);
+  padding: var(--space-lg);
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 2;
+
 }
 
 
