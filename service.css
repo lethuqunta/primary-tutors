@@ -128,7 +128,8 @@ h1 {
 }
 
 .button-direction {
-  font-size: 20px;
+  font-size: 1.1rem;
+  color: var(--muted);
 }
 
 .btn-subjects {
@@ -174,5 +175,90 @@ h1 {
   padding-top: var(--space-md);
   padding-bottom: var(--space-md);
 }
+
+.section-subjects {
+  min-height: 100vh;
+  background: var(--bg);
+
+}
+
+.sec-label {
+  text-align: center;
+  padding-top: var(--space-sm);
+  font-weight: bold;
+}
+
+.section-subjects h2 {
+  text-align: center;
+  padding-top: var(--space-xl);
+  padding-bottom: var(--space-md);
+}
+
+.subjects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  gap:  var(--space-lg);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.subject-card {
+  background: var(--surface-2);
+  border-radius: var(--space-lg);
+  padding: var(--space-lg) var(--space-lg);
+  gap: var(--space-md);
+}
+
+.subject-detail {
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.subject-detail h3 {
+  color: var(--accent)
+}
+
+.sec-booking {
+  background: var(--surface-3);
+  padding: var(--space-xl) var(--space-lg);
+  text-align: center;
+}
+
+.sec-booking h2 {
+  color: var(--accent-soft);
+  margin-bottom: var(--space-sm);
+}
+
+.sec-booking > p {
+  color: var(--muted);
+  margin-bottom: var(--space-lg);
+}
+
+.booking-contacts {
+  display: flex;
+  gap: var(--space-md);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.div-book {
+  background: var(--surface);
+  border: 0.5px solid var(--border);
+  border-radius: 12px;
+  padding: var(--space-md) var(--space-lg);
+  min-width: 220px;
+  transition: border-color var(--transition);
+}
+
+.div-book:hover {
+  border-color: rgba(96,165,250,0.3);
+}
+
+.book-type {
+  font-size: 1.1rem;
+  color: var(--text-subtle);
+  font-weight: 700;
+}
+
 
 
